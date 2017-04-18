@@ -27,8 +27,29 @@
     padding: 9px 15px;
 }
 
-.ptg-home-solutions {
-    padding: 50px 20px;
+.customer-satisfaction-carousel-layover {
+    background: rgba(0, 39, 63, .4);
+    position: absolute; 
+    top: 0; 
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.ptg-home-solutions-container {
+    background-color: #f7f7f7;
+}
+
+@media (max-width: 768px) {
+    .ptg-home-solutions {
+        padding: 50px 20px;
+    }
+}
+
+@media (min-width: 769px) {
+    .ptg-home-solutions {
+        padding: 50px 10%;
+    }
 }
 
 .ptg-home-solutions-icons {
@@ -67,7 +88,6 @@ footer a {
 
 .ptg-home-solutions-icons img:hover {
     cursor: pointer;
-    background-color: #e5e5e5;
 }
 
 .ptg-home-image-overlay {
