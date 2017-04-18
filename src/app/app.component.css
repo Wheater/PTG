@@ -1,0 +1,46 @@
+.ptg-navbar {
+    width: 880px;
+}
+
+@media (max-width: 768px) {
+    .ptg-home-above-header {
+        display: none;
+    }
+}
+
+.navbar-default {
+    box-shadow: 0 2px #e5e5e5;
+    background-color: white;
+}
+
+.navbar-brand {
+    padding: 9px 15px;
+}
+
+.ptg-content {
+    margin-top: 150px;
+}
+
+footer {
+    padding: 20px;
+    box-shadow: 0 2px #e5e5e5;
+}
+
+.ptg-home-carousel img {
+    height: 400px; 
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.ptg-home-image-overlay {
+    background: rgba(0,0,0,0.5);
+    border-radius: 30px;
+}
+
+.ptg-home-image-overlay p,
+.ptg-home-image-overlay h3 {
+    color: white;
+    opacity: 1;
+}
