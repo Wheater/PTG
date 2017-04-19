@@ -1,0 +1,56 @@
+.customer-satisfaction-carousel-layover {
+    background: rgba(0, 39, 63, .4);
+    position: absolute; 
+    top: 0; 
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.ptg-home-solutions-container {
+    background-color: #f7f7f7;
+}
+
+@media (max-width: 768px) {
+    .ptg-home-solutions {
+        padding: 50px 20px;
+    }
+}
+
+@media (min-width: 769px) {
+    .ptg-home-solutions {
+        padding: 50px 10%;
+    }
+}
+
+.ptg-home-solutions-icons {
+    margin: 50px 20px;
+}
+
+.ptg-home-solutions-icons img {
+    width: 75px;
+    margin: 20px;
+}
+
+.ptg-home-carousel img {
+    height: 400px; 
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.ptg-home-solutions-icons img:hover {
+    cursor: pointer;
+}
+
+.ptg-home-image-overlay {
+    background: rgba(0,0,0,0.5);
+    border-radius: 30px;
+}
+
+.ptg-home-image-overlay p,
+.ptg-home-image-overlay h3 {
+    color: white;
+    opacity: 1;
+}

@@ -1,10 +1,10 @@
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid ptg-navbar">
     <div class="ptg-home-above-header">
-      <img src="assets/PTG_Logo_color_RGB.gif" height="100px;"/>
+      <a routerLink="/home"><img src="assets/PTG_Logo_color_RGB.gif" height="100px;"/></a>
     </div>
     <div class="navbar-header">
-      <a class="navbar-brand hidden-md hidden-lg hidden-sm" href="#">
+      <a class="navbar-brand hidden-md hidden-lg hidden-sm" routerLink="/home">
         <img alt="Brand" src="assets/favicon.png">
       </a>
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ptg-home-navbar" aria-expanded="false">
@@ -16,7 +16,7 @@
     </div>
     <div class="collapse navbar-collapse" id="ptg-home-navbar">
       <ul class="nav navbar-nav navbar-center">
-        <li><a href="#">About PTG</a></li>        
+        <li><a routerLink="/about">About Us</a></li>        
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Solutions <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -42,93 +42,7 @@
   </div>
 </nav>
 <div class="ptg-content">
-
-  <!-- start carousel -->
-
-  <carousel class="ptg-home-carousel">
-    <slide>
-      <img src="https://static1.squarespace.com/static/57b42d1de6f2e189cfaf71ec/t/57efcf7a414fb59afd5802dd/1475334014054/Physical-Security-Services.jpg?format=1500w" alt="First slide">
-      <div class="carousel-caption ptg-home-image-overlay">
-        <h3>Physical Security</h3>
-        <p>Security assessments and software consulting protect your employees and assets.</p>
-      </div>
-    </slide>
-    <slide>
-      <img src="https://wsisweden.com/wp-content/uploads/2014/06/WSI_WSIway-2.jpg">
-      <div class="carousel-caption ptg-home-image-overlay">
-        <h3>Converged Network Services</h3>
-        <p>Let us connect you</p>
-      </div>
-    </slide>
-    <slide>
-      <img src="http://westernacher-consulting.com/wp-content/uploads/2015/09/2015_09_ERP_Slider_web.jpg">
-      <div class="carousel-caption ptg-home-image-overlay">
-        <h3>Enterprise Resource Planning</h3>
-        <p>Interlocking data and processes: Every corner of your enterprise, managed from a central location.</p>
-      </div>
-    </slide>
-  </carousel>
-
-  <!-- end carousel --> 
-  <!-- begin solutions -->
-  <div class="ptg-home-solutions-container">
-    <div class="ptg-home-solutions text-center">
-      <h3>Solutions</h3>
-      <p>35 years of proven solutions will provide your business with exacty what you need</p>
-      <div class="container-fluid ptg-home-solutions-icons">
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <h4>Physical Security</h4>
-          <img src="http://www.vscenario.com/wp-content/uploads/2016/05/icon-ps-outline.png" />
-          <br>
-          <button class="btn-primary">Learn More >></button>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <h4>Converged Network Services</h4>
-          <img src="http://www.vscenario.com/wp-content/uploads/2016/05/icon-to-outline.png" />
-          <br>
-          <button class="btn-primary">Learn More >></button>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <h4>ERP</h4>
-          <img src="http://industry4consulting.com/img/sales_target.png" />
-          <br>
-          <button class="btn-primary">Learn More >></button>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <h4>Talent Acquisition</h4>
-          <img src="http://cdn.onlinewebfonts.com/svg/download_518099.png" />
-          <br>
-          <button class="btn-primary">Learn More >></button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- end solutions -->
-
-   <!-- start carousel -->
-
-  <carousel class="ptg-home-carousel ">
-    <slide>
-      <img src="https://www.101corpuschristi.com/uploads/media/default/0001/19/657ecf0c526f5b8bd97f5bcc00d1aa4e58a88759.jpeg">  
-      <div class="customer-satisfaction-carousel-layover"></div>    
-      <div class="carousel-caption">        
-        <p>PTG met the budget and timeline and exceeded our expectations at every point along the way.</p>
-        <h4>- Port of Corpus Christi</h4>
-      </div>
-    </slide>
-    <slide>
-      <img src="https://www.clarkconstruction.com/sites/default/files/styles/featured_image/public/project_feat_images/Brook-Army-Medical-Center_Main-Image.jpg">  
-      <div class="customer-satisfaction-carousel-layover"></div>    
-      <div class="carousel-caption">        
-        <p>PTG displayed expertise in our wireless integration.</p>
-        <h4>- Brooke Army Medical Center</h4>
-      </div>
-    </slide>
-  </carousel>
-
-  <!-- end carousel --> 
-
+  <router-outlet></router-outlet>
   <footer>
     <div class="container-fluid">
       <div class="col-md-4 col-sm-6 col-xs-12 ptg-home-footer-div">

@@ -1,0 +1,71 @@
+carousel img {
+    width: 100%;
+}
+
+carousel slide {
+    height: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.about-us-layover {
+    background: rgba(0, 39, 63, .3);
+    position: absolute; 
+    top: 0; 
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.about-us-caption {
+    color: white;
+    font-size: 20px;
+    top: 100px;
+    position: absolute;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.ptg-team-container {
+    margin: 100px 50px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 39, 63, .3);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.ptg-team-icons {
+    margin-top: 50px;
+}
+
+.ptg-team-icons > div{
+    padding: 0px;
+}
+
+.ptg-team-container img {
+    height: 100%;
+    width: 100%;
+}
+
+.ptg-team-overlay {
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.ptg-team-overlay-font {
+    position: absolute;
+    top: 70%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    font-size: 26px;
+    color: white;
+}
+
+.ptg-team-overlay:hover {
+    background: rgba(0,0,0,0);
+}
