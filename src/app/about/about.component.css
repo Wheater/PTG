@@ -54,6 +54,7 @@ carousel slide {
     bottom: 0;
     right: 0;
     left: 0;
+    z-index: 10;
 }
 
 .ptg-team-overlay-font {
@@ -64,6 +65,17 @@ carousel slide {
     left: 0;
     font-size: 26px;
     color: white;
+    background: rgba(0,0,0,0.3);
+}
+
+@media (max-width: 768px) {
+    .ptg-team-overlay-font {
+        top: 65%;
+    }
+
+    .about-us-caption {
+        top: 25px;
+    }
 }
 
 .ptg-team-overlay:hover {
